@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1> Search Yahoo, DuckDuckGo, and Fill Out a Form</h1>
+    
+    <form action="https://search.yahoo.com/search" method="get" target="_blank">
+        <fieldset>
+            <legend><b>Search on Yahoo</b></legend>
+        <img src=".\images\yahoo.png" height="100">
+        <input type="text" name="q">
+        <input type="submit" value="search Yahoo">
+        </fieldset>
+    </form>
+    <hr>
+
+    <form action="https://duckduckgo.com/" method="get" target="_blank">
+        <fieldset>
+            <legend><b>Search on DuckDuckGo</b></legend>
+        <img src=".\images\duckduckgo.png" height="100">
+        <input type="text" name="q">
+        <input type="submit" value="search DuckDuckGo">
+        </fieldset>
+    </form>
+    <hr>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend><b>Enter your login information!</b></legend>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username" name="username">
+
+        <label for="user_email">Email:</label>
+        <input type="email" id="user_email" placeholder="you@example.com" name="email">
+
+        <label for="user_password">Password:</label>
+        <input type="password" id="user_password" name="password">
+
+        <label for="date_of_birth">Date of Birth:</label>
+        <input type="date" id="date_of_birth" name="DOB" placeholder="MM/DD/YYYY">
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Tell us about yourself!</b></legend>
+
+        <h4>What is your favorite genre of video game?</h4>
+        <select name="video_games">
+            <option value="Action" selected>Action</option>
+            <option value="RPG">RPG</option>
+            <option value="Puzzle">Puzzle</option>
+            <option value="Horror">Horror</option>
+            <option value="Racing">Racing</option>
+            <option value="Sports">Sports</option>
+            <option value="Platformer">Platformer</option>
+        </select>
+        <br>
+
+        <h4>What is your favorite food from this list?</h4>
+        <label for="pizza">Pizza</label>
+        <input type="radio" id="pizza" name="food_type" value="pizza" checked>
+
+        <label for="pasta">Pasta</label>
+        <input type="radio" id="pasta" name="food_type" value="pasta">
+
+        <label for="soup">Soup</label>
+        <input type="radio" id="soup" name="food_type" value="soup">
+
+        <label for="steak">Steak</label>
+        <input type="radio" id="steak" name="food_type" value="steak">
+        <br>
+
+        <h4>Which attributes best describe you? (Choose all that apply)</h4>
+        <label for="strong">Strong</label>
+        <input type="checkbox" id="strong" name="attributes" value="strong">
+
+         <label for="smart">Smart</label>
+        <input type="checkbox" id="smart" name="attributes" value="smart">
+
+         <label for="brave">Brave</label>
+        <input type="checkbox" id="brave" name="attributes" value="brave">
+
+         <label for="cunning">Cunning</label>
+        <input type="checkbox" id="cunning" name="attributes" value="cunning">
+
+         <label for="stubborn">Stubborn</label>
+        <input type="checkbox" id="stubborn" name="attributes" value="stubborn">
+        </fieldset>
+
+        <fieldset>
+        <legend><b>Leave us a message and submit the form!</b></legend>
+        <textarea rows="20" cols="60"></textarea>
+        <br>
+
+        <button type="submit">Submit Form</button>
+        </fieldset>
+
+    </form>
+</body>
+</html>
+<!--
+Required:
+<DOCTYPE>: DONE
+<html>: DONE
+<head>: DONE
+<title>: DONE
+<body>: DONE
+<h1> or other heading tags: DONE
+<label>: DONE
+<form>: DONE
+<input>: DONE
+    must use at least these types
+        -text: DONE
+        -radio: DONE
+        -checkbox: DONE
+        -password: DONE
+        -submit: DONE
+<textarea>: DONE
+<fieldset>: DONE
+<img>: ~
+-->
