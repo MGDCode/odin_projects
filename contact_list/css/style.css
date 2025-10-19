@@ -1,0 +1,104 @@
+#wrapper
+{
+    max-width: 900px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#heading
+{
+    text-align: center;
+    border: 1px solid black;
+}
+
+div
+{
+    color: darkred;
+    
+}
+
+body
+{
+    background-color: lightgray;
+}
+
+.contact_row.odd
+{
+   background-color: lightsteelblue; 
+   border: 1px solid black;
+}
+
+.contact_row.even
+{
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
+
+.contact_row div
+{
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+h1
+{
+    font-size: 48px;
+}
+
+.client_photo
+{
+    width: 35%;
+    text-align: center;
+    border: none;
+    margin: auto;
+    padding: 5px;
+}
+
+.client_photo img
+{
+    width: 150px;
+    height: 150px;
+}
+
+.client_information
+{
+    width: 30%;
+    text-align: center;
+}
+
+.client_contact
+{
+    width: 30%;
+    text-align: center;
+}
+
+.client_name
+{
+    font-size: 30px;
+    margin: 2px;
+}
+
+.client_address
+{
+    font-size: 24px;
+    margin: 2px;
+}
+
+.client_phone
+{
+    font-size: 20px;
+    margin: 2px;
+}
+
+.client_email
+{
+    font-size: 20px;
+    margin: 2px;
+}
+
+.client_fact
+{
+    font-size: 20px;
+    margin: 2px;
+}
