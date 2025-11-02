@@ -1,0 +1,53 @@
+h1
+{
+    font-size: 48px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body
+{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: gray;
+}
+
+label
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input
+{
+    padding: 7px;
+    margin: 15px;
+    margin-left: 3px;
+    border: 2px solid black;
+}
+
+input[type="number"]
+{
+    width: 40px;
+}
+
+button
+{
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: chartreuse;
+    padding: 7px;
+    font-weight: bold;
+}
+#grade_table table
+{
+    border: 2px solid black;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#table_footer tfoot
+{
+    font-weight: bold;
+}
