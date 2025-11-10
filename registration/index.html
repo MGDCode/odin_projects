@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/program.js"></script>
+    <title>Registration</title>
+</head>
+<body>
+    <div class="Banner">
+        <div>
+            <h1>Puppy Conference 2026</h1>
+        </div>
+        <p id="banner_text">
+            <b>Register now for the annual puppy conference!</b>
+            <br>
+            <b>Save the date! March 23, 2026, San Antonio, TX</b>
+        </p>
+    </div>
+    <div class="Info">
+        <img src="images/puppies.jpg" alt="photo of puppies">
+        <p>
+            <b>Welcome to the annual puppy conference!</b> 
+            <br> <br>
+            We welcome any and all to come out to our one day conference to experience the latest and greatest in puppy news, events, shows, and more! We offer free samples of the 
+            latest treats and toys and a free grooming for your puppies while supplies last. We look forward to having you join us on March 23, 2026!
+        </p>
+    </div>
+    <div class="Registration_Form">
+        <form id="form" method="get" action="pages/confirmation.html">
+            <fieldset>
+                <div id="contact">
+                    <h2>Contact Information</h2>
+                    <label for="fname">First Name: </label>
+                    <input type="text" name="fname" id="fname" placeholder="John">
+                    <label for="lname">Last Name: </label>
+                    <input type="text" name="lname" id="lname" placeholder="Doe">
+                    <br>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="JohnDoe@yourdomain.com">
+                    <label for="phone">Phone: </label>
+                    <input type="number" name="phone" id="phone" placeholder="1234567890">
+                </div>
+                <div id="address">
+                    <h2>Billing Address</h2>
+                    <label for="street">Street: </label>
+                    <input type="text" name="street" id="street" placeholder="123 Apple Drive">
+                    <br>
+                    <label for="city">City: </label>
+                    <input type="text" name="city" id="city" placeholder="San Antonio">
+                    <label for="state">State: </label>
+                    <input type="text" name="state" id="state" placeholder="TX">
+                    <label for="zip">Zip: </label>
+                    <input type="number" name="zip" id="zip" placeholder="78207">
+                </div>
+                <div id="payment">
+                    <h2>Payment</h2>
+                    <label for="card">Credit Card: </label>
+                    <input type="password" name="card" id="card" placeholder="1234567890123456">
+                </div>
+            </fieldset>
+        </form>
+        <button id="submit" onClick="validateForm()">Submit</button>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,129 @@
+body
+{
+    background-color: rgb(199, 199, 199);
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+.Banner
+{
+    border: solid black 3px;
+    padding: 50px;
+    background-color: blanchedalmond;
+    margin-top: 20px;
+}
+
+.Info
+{
+    display:inline-flex;
+    margin: 20px;
+}
+
+.Registration_Form 
+{
+    border-style:groove;
+    background-color: blanchedalmond;
+}
+
+.Registration_Form fieldset
+{
+    margin:auto;
+}
+.Registration_Form #contact
+{
+    border-bottom: groove;
+}
+
+.Registration_Form #address
+{
+    border-bottom: groove;
+    border-top: groove;
+}
+
+.Registration_Form #payment
+{
+    border-top: groove;
+}
+
+.Registration_Form input
+{
+    padding: 7px;
+    margin: 10px;
+}
+
+.Registration_Form button
+{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Info img
+{
+    width: 300px;
+    padding: 20px;
+}
+
+.Info p
+{
+    margin: auto;
+    text-align:justify;
+}
+
+.Info b
+{
+
+    font-size: 24px;
+    text-align: center;
+}
+
+.invalid
+{
+    border-color: red;
+}
+
+.results
+{
+    width: 75%;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+
+.results table
+{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+.results table, .results td
+{
+    border: solid black 1px;
+    padding: 7px;
+}
+
+.results .label
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.confirmed img
+{
+    width: 250px;
+    padding: 20px;
+}
+
+.confirmed
+{
+    display:inline-flex;
+    margin: 20px;
+}
+
+.confirmed p
+{
+    font-size: 24px;
+}
