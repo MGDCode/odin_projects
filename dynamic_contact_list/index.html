@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/program.js"></script>
+    <title>Contact List</title>
+</head>
+
+<body onload="renderTable()">
+    <div id="wrapper">
+        <div id="header">
+            <h1>Contact List</h1>
+        </div>
+        <div id="contact_list">
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Email</td>
+                </tr>
+                <tbody id="contact_table">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Contacts: <span id="contact_count">0</span></td>
+                        <td><button id="new_contact" onclick="showForm()">Add New Contact</button></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div id="contact_form">
+            <label>First Name: </label>
+            <input id="first_name" type="text">
+            <br>
+            <label>Last Name: </label>
+            <input id="last_name" type="text">
+            <br>
+            <label>Email: </label>
+            <input id="email" type="text">
+            <br>
+            <button id="save_contact" onclick="validateForm()">Save</button>
+            <button id="cancel_contact" onclick="hideForm()">Cancel</button>
+        </div>
+    </div>
+</body>
+
+</html>
